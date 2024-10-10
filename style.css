@@ -1,0 +1,22 @@
+/* General Styles */
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #646464;
+}
+
+h1, h2, h3, h4{
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #646464;
+}
