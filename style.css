@@ -20,3 +20,24 @@ a{
 a:hover{
     color: #646464;
 }
+
+/* Header */
+header{
+    background-color: #2b2727;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+header h2{
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+header a{
+    padding: 15px;
+}
+header li{
+    padding: 15px;
+}
