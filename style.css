@@ -25,19 +25,24 @@ a:hover{
 header{
     background-color: #2b2727;
 }
+
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
+
 header h2{
     margin: auto;
     color: white;
     text-align: center;
     padding: 15px;
 }
+
 header a{
-    padding: 15px;
+    padding: 14px;
+    font-size: 14px;
 }
+
 header li{
-    padding: 15px;
+    padding: 14px;
 }
