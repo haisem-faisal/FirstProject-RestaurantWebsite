@@ -5,7 +5,7 @@ body{
     color: #646464;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5{
     color: black;
 }
 
@@ -18,7 +18,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: #646464;
+    color: #868686;
 }
 
 /* Header */
@@ -45,4 +45,42 @@ header a{
 
 header li{
     padding: 14px;
+}
+
+/* Home Page Hero Banner*/
+#homehero{
+    /*background-image: url(images/HomeHeroImg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;*/
+}
+
+.heroimg{
+    width: 100%;
+}
+
+#homehero h4{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#homehero h1{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#homehero h5{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
