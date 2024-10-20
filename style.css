@@ -122,10 +122,10 @@ button{
 }
 
 /*Main Content, Branches Section*/
-#branches{
+.branches{
     color: red;
 }
-#branches h3, h4{
+.branches h3, h4{
     color: black;
 }
 
@@ -139,6 +139,6 @@ footer h4{
     color: white;
 }
 
-#f-boxone{
+.f-boxone{
     color: yellow;
 }
