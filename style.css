@@ -88,3 +88,25 @@ header li{
     color: white;
     font-size: 1.5rem;
 }
+
+/*Main content, first section*/
+#HomeContent{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+#hc-boxone{
+    display: flex;
+    width: 60%;
+}
+
+#hc-boxone img{
+    width: 50%;
+}
+
+#hc-boxtwo{
+    width: 40%;
+    padding: 5px;
+}
