@@ -6,7 +6,7 @@ body{
 }
 
 h1, h2, h3, h4, h5{
-    color: black;
+    color: red;
 }
 
 li{
@@ -18,12 +18,12 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: #868686;
+    color: yellow;
 }
 
 /* Header */
 header{
-    background-color: #2b2727;
+    background-color: black;
     border-bottom: solid 3px white;
 }
 
@@ -34,7 +34,6 @@ nav{
 
 header h2{
     margin: auto;
-    color: white;
     text-align: center;
     padding: 15px;
 }
@@ -109,4 +108,37 @@ header li{
 #hc-boxtwo{
     width: 40%;
     padding: 5px;
+    color: red;
+}
+
+#hc-boxtwo h4{
+    width: 40%;
+    padding: 5px;
+    color: black;
+}
+
+button{
+    background-color: yellow;
+}
+
+/*Main Content, Branches Section*/
+#branches{
+    color: red;
+}
+#branches h3, h4{
+    color: black;
+}
+
+/*Footer*/
+footer{
+    color: white;
+    background-color: black;
+}
+
+footer h4{
+    color: white;
+}
+
+#f-boxone{
+    color: yellow;
 }
