@@ -48,14 +48,6 @@ header li{
 }
 
 /* Home Page Hero Banner*/
-#homehero{
-    /*background-image: url(images/HomeHeroImg.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;*/
-}
-
 .heroimg{
     width: 100%;
 }
@@ -89,11 +81,13 @@ header li{
 }
 
 /*Main content, first section*/
-#HomeContent{
+#hc-one{
     display: flex;
     width: 80%;
     align-items: center;
     margin: auto;
+    padding: 5px;
+    font-size: 1.8rem;
 }
 
 #hc-boxone{
@@ -109,16 +103,51 @@ header li{
     width: 40%;
     padding: 5px;
     color: red;
+    text-align: center;
+    align-items: center;
 }
 
 #hc-boxtwo h4{
-    width: 40%;
     padding: 5px;
     color: black;
+    text-align: center;
 }
+
+
+#hc-two{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+    font-size: 1.8rem;
+}
+
+#hc-boxthree{
+    width: 40%;
+    padding: 5px;
+    color: red;
+    text-align: center;
+}
+
+#hc-boxfour img{
+    width: 50%;
+}
+
+#hc-boxfour{
+    display: flex;
+    width: 60%;
+}
+
+#hc-boxthree h4{
+    padding: 5px;
+    color: black;
+}    
+
 
 button{
     background-color: yellow;
+    font-size: 1.8rem;
 }
 
 /*Main Content, Branches Section*/
