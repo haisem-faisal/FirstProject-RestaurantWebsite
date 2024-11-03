@@ -186,6 +186,10 @@ header li{
     width: 80%;
 }
 
+.branches button{
+    margin: 10px;
+}
+
 
 /*Footer*/
 footer{
