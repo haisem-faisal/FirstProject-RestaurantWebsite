@@ -154,11 +154,38 @@ header li{
 
 /*Main Content, Branches Section*/
 .branches{
-    color: red;
+    color: grey;
+    background-color: #f4f4f4;
+    padding: 10px 0px 100px 0px;
 }
+
 .branches h3, h4{
     color: black;
 }
+
+.branches h3{
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.branches div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.branch{
+    width: 22%;
+    text-align: center;
+    background-color: white;
+    border: solid 1px #dedede;
+    border-radius: 10px;
+}
+
+.branches img{
+    width: 80%;
+}
+
 
 /*Footer*/
 footer{
