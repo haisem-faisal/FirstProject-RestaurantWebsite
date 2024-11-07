@@ -23,6 +23,10 @@ a:hover{
 
 button{
     background-color: #af9651;
+    color: white;
+    border: solid #6e4e05 1px;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 /* Header */
