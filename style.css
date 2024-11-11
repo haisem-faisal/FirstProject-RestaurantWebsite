@@ -95,23 +95,23 @@ header li{
     align-items: center;
     margin: auto;
     padding: 5px;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     margin-top: 100px;
     margin-bottom: 50px;
 }
 
 #hc-boxone{
     display: flex;
-    width: 60%;
+    width: 65%;
+    justify-content: space-between;
 }
 
 #hc-boxone img{
-    width: 50%;
-    margin: 0px 10px;
+    width: 49%;
 }
 
 #hc-boxtwo{
-    width: 40%;
+    width: 35%;
     padding: 5px;
     color: grey;
     text-align: center;
@@ -131,26 +131,26 @@ header li{
     align-items: center;
     margin: auto;
     padding: 5px;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 
 #hc-boxthree{
-    width: 40%;
+    width: 35%;
     padding: 5px;
     color: grey;
     text-align: center;
 }
 
 #hc-boxfour img{
-    width: 50%;
-    margin: 0px 10px;
+    width: 49%;
 }
 
 #hc-boxfour{
     display: flex;
-    width: 60%;
+    justify-content: space-between;
+    width: 65%;
 }
 
 #hc-boxthree h4{
@@ -160,7 +160,8 @@ header li{
 
 
 #hc-boxtwo button{
-    font-size: 1.8rem;
+    padding: 8px;
+    font-size: 0.9rem;
 }
 
 
