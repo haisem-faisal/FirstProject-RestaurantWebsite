@@ -212,7 +212,7 @@ header li{
 /*About Us Page*/
 
 /*Hero banner*/
-.aboutushero h1{
+.hero h1{
     margin: 0;
     padding: 0;
     position: absolute;
@@ -223,7 +223,7 @@ header li{
     color: white;
 }
 
-.aboutushero .heroli{
+.hero .heroli{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -232,15 +232,15 @@ header li{
     color: white;
 }
 
-.aboutushero a{
+.hero a{
     color: white;
 }
 
-.aboutushero a:hover{
+.hero a:hover{
     color: #af9651;
 }
 
-.aboutushero img{
+.hero img{
     width: 100%;
     height: 350px;
     object-fit: cover;
