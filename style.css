@@ -29,6 +29,7 @@ button{
     padding: 5px;
 }
 
+
 /* Header */
 header{
     background-color: #af9651;
@@ -57,7 +58,10 @@ header li{
     padding: 14px;
 }
 
-/* Home Page Hero Banner*/
+
+/*Home Page*/
+
+/*Hero banner*/
 .heroimg{
     width: 100%;
 }
@@ -166,8 +170,7 @@ header li{
     font-size: 0.9rem;
 }
 
-
-/*Main Content, Branches Section*/
+/*Main content, branches section*/
 .branches{
     color: grey;
     background-color: #f4f4f4;
@@ -203,6 +206,44 @@ header li{
 
 .branches button{
     margin: 10px;
+}
+
+
+/*About Us Page*/
+
+/*Hero banner*/
+.aboutushero h1{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: white;
+}
+
+.aboutushero .heroli{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    color: white;
+}
+
+.aboutushero a{
+    color: white;
+}
+
+.aboutushero a:hover{
+    color: #af9651;
+}
+
+.aboutushero img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
 }
 
 
