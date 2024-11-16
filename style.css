@@ -168,6 +168,10 @@ header li{
     color: black;
 }    
 
+#hc-boxthree button{
+    padding: 8px;
+    font-size: 0.9rem;
+}
 
 #hc-boxtwo button{
     padding: 8px;
