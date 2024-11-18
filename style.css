@@ -254,9 +254,66 @@ header li{
     object-fit: cover;
 }
 
+/*Main section*/
+.about-one{
+    margin: 50px auto 25px auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+}
+
+.about-one div{
+    padding: 5px;
+}
+
+.about-one-text{
+    width: 60%;
+}
+
+.about-one img{
+    width: 100%;
+}
+
+.about-one-image{
+    width: 40%;
+}
+
+.about-two{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: 25px auto 50px auto;
+}
+
+.about-two div{
+    padding: 5px;
+}
+
+.about-two-text{
+    width: 50%;
+    color: black;
+}
+
+.about-two-image{
+    width: 50%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;
+}
+
+.about-two img{
+    width: 100%;
+}
+
+.about-two img:hover{
+    opacity: 0.85;
+    transition: opacity 0.4s;
+}
+
 
 /*Gallery Page*/
-
 .gallery{
     display: flex;
     flex-wrap: wrap;
