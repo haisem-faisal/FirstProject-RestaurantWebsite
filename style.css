@@ -331,6 +331,83 @@ header li{
     width: 100%;
 }
 
+/*Contact Us Page*/
+.contact-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-container section{
+    padding: 0px 20px;
+    gap: 1rem;
+    align-items: stretch;
+}
+
+.contact-container::before{
+    align-self: stretch;
+    content: '';
+    border: 1px solid #dfdfdf;
+}
+
+.contact-container .contact-us:first-child{
+    order: -1;
+}
+
+.contact-us{
+    width: 40%;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.form-grid{
+    display: grid;
+    row-gap: 35px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr;
+}
+
+.form-grid textarea{
+    min-height: 15em;
+    max-height: 15em;
+    min-width: 185.5%;
+    max-width: 185.5%;
+    padding: .5em;
+    border: 1px solid #dfdfdf;
+}
+
+.contact-container input{
+    width: 20em;
+    height: 2.7em;
+    border: 1px solid #dfdfdf;
+}
+
+.follow-us{
+    width: 40%;
+}
+
+.follow-us h4{
+    font-size: 1.2rem;
+}
+
+.follow-us .f-icons{
+    justify-content: center;
+}
+
+.follow-us .fa{
+    padding: 17px;
+    font-size: 27px;
+    width: 27px;
+    margin: 5px;
+}
+
+.contact-container button{
+    padding: 10px;
+    font-size: 1rem;
+    width: 100px;
+}
+
 
 /*Footer*/
 footer{
