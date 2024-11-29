@@ -492,3 +492,34 @@ footer li{
     border-top: 1px solid #9b9b9b;
     padding: 5px;
 }
+
+
+/* Mobile Phone Display*/
+@media screen and (max-width:431px){
+    /*Header*/
+    header{
+        position: static;
+    }
+    header nav{
+        flex-wrap: wrap;
+    }
+
+    /*Branches Section*/
+    .branches div{
+        flex-wrap: wrap;
+    }
+
+    .branch{
+        width: 45%;
+        text-align: center;
+        background-color: white;
+        border: solid 1px #dedede;
+        border-radius: 10px;
+    }
+
+    /*Footer*/
+    .mainfooter{
+        display: block;
+        padding: 5px;
+    }
+}
