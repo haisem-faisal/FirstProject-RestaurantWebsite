@@ -63,9 +63,9 @@ header li{
 }
 
 
-/*Home Page*/
+/* Home Page */
 
-/*Hero banner*/
+/* Hero banner */
 .heroimg{
     width: 100%;
 }
@@ -98,7 +98,7 @@ header li{
     font-size: 1.5rem;
 }
 
-/*Main content, first section*/
+/* Main content, first section */
 #hc-one{
     display: flex;
     width: 80%;
@@ -178,7 +178,7 @@ header li{
     font-size: 0.9rem;
 }
 
-/*Main content, branches section*/
+/* Branches Section */
 .branches{
     color: grey;
     background-color: #f4f4f4;
@@ -217,9 +217,9 @@ header li{
 }
 
 
-/*About Us Page*/
+/* About Us Page */
 
-/*Hero banner*/
+/* Hero banner */
 .hero h1{
     margin: 0;
     padding: 0;
@@ -254,7 +254,7 @@ header li{
     object-fit: cover;
 }
 
-/*Main section*/
+/* Main section */
 .about-one{
     margin: 50px auto 25px auto;
     display: flex;
@@ -313,7 +313,7 @@ header li{
 }
 
 
-/*Gallery Page*/
+/* Gallery Page */
 .gallery{
     display: flex;
     flex-wrap: wrap;
@@ -331,7 +331,7 @@ header li{
     width: 100%;
 }
 
-/*Contact Us Page*/
+/* Contact Us Page */
 .contact-container{
     display: flex;
     justify-content: center;
@@ -409,7 +409,7 @@ header li{
 }
 
 
-/*Footer*/
+/* Footer */
 footer{
     color: #9b9b9b;
     background-color: black;
@@ -496,7 +496,7 @@ footer li{
 
 /* Mobile Phone Display*/
 @media screen and (max-width:431px){
-    /*Header*/
+    /* Header */
     header{
         position: static;
     }
@@ -504,7 +504,7 @@ footer li{
         flex-wrap: wrap;
     }
 
-    /*Branches Section*/
+    /* Branches Section */
     .branches div{
         flex-wrap: wrap;
     }
@@ -517,9 +517,33 @@ footer li{
         border-radius: 10px;
     }
 
-    /*Footer*/
+    /* Footer */
     .mainfooter{
         display: block;
         padding: 5px;
+    }
+}
+
+/* Tablet Device Display */
+@media screen and (min-width:432px) and (max-width:1024px){
+    /* Footer */
+    .mainfooter{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.3em;
+    }
+
+    .f-boxone{
+        width: 100%;
+    }
+
+    .f-box{
+        width: 48%;
+    }
+
+    .fa{
+        padding: 15px;
+        width: 20px;
+        margin: 5px;
     }
 }
