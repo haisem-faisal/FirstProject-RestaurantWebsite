@@ -555,6 +555,35 @@ footer li{
 
 /* Tablet Device Display */
 @media screen and (min-width:432px) and (max-width:1024px){
+    /* Hero Section - Home Page */
+    .homehero{
+        overflow: visible;
+        height: 1000px;
+    }
+
+    .heroimg{
+        height: 1000px;
+        object-fit: cover;
+    }
+
+    #homehero h4{
+        top: 35%;
+        text-align: center;
+        width: 80%;
+    }
+    
+    #homehero h1{
+        top: 40%;
+        text-align: center;
+        width: 80%;
+    }
+    
+    #homehero h5{
+        top: 50%;
+        text-align: center;
+        width: 80%;
+    }
+
     /* Footer */
     .mainfooter{
         display: flex;
