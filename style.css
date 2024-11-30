@@ -677,6 +677,25 @@ footer li{
         width: 48%;
     }
 
+    /* About Us Page */
+    .about-one{
+        display: block;
+        width: 100%;
+    }
+
+    .about-one-image{
+        width: 80%;
+        margin: auto;
+    }
+
+    .about-one-text{
+        width: 100%;
+    }
+
+    .about-two{
+        width: 95%;
+    }
+
     /* Hero banner */
     .hero h1{
         top: 23%;
