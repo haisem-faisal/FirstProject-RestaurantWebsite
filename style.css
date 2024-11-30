@@ -576,6 +576,11 @@ footer li{
         width: 100%;
     }
 
+    /* Gallery */
+    .gallery div{
+        width: 95%;
+    }
+
     /* Branches Section */
     .branches div{
         flex-wrap: wrap;
