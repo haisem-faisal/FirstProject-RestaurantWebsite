@@ -584,6 +584,17 @@ footer li{
         width: 80%;
     }
 
+    /* Main Section - Home Page */
+    #hc-one{
+        width: 100%;
+        padding: 0px;
+    }
+    
+    #hc-two{
+        width: 100%;
+        padding: 0px;
+    }
+
     /* Footer */
     .mainfooter{
         display: flex;
