@@ -504,6 +504,35 @@ footer li{
         flex-wrap: wrap;
     }
 
+    /* Hero Section - Home Page */
+    .homehero{
+        overflow: visible;
+        height: 750px;
+    }
+
+    .heroimg{
+        height: 750px;
+        object-fit: cover;
+    }
+
+    #homehero h4{
+        top: 40%;
+        text-align: center;
+        width: 80%;
+    }
+    
+    #homehero h1{
+        top: 55%;
+        text-align: center;
+        width: 80%;
+    }
+    
+    #homehero h5{
+        top: 75%;
+        text-align: center;
+        width: 80%;
+    }
+
     /* Branches Section */
     .branches div{
         flex-wrap: wrap;
@@ -530,7 +559,6 @@ footer li{
     .mainfooter{
         display: flex;
         flex-wrap: wrap;
-        font-size: 1.3em;
     }
 
     .f-boxone{
