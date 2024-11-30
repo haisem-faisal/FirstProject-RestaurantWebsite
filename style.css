@@ -638,6 +638,22 @@ footer li{
         padding: 0px;
     }
 
+    /* Gallery */
+    .gallery div{
+        width: 48%;
+    }
+
+    /* Hero banner */
+    .hero h1{
+        top: 23%;
+        left: 50%;
+    }
+
+    .hero .heroli{
+        top: 30%;
+        left: 50%;
+    }
+
     /* Footer */
     .mainfooter{
         display: flex;
