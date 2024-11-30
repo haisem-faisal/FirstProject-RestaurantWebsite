@@ -533,6 +533,49 @@ footer li{
         width: 80%;
     }
 
+    /* Main Section - Home Page */
+    #hc-one{
+        display: block;
+        width: 100%;
+        padding: 0px;
+        margin: auto;
+    }
+
+    #hc-boxone{
+        width: 100%;
+        display: block;
+    }
+
+    #hc-boxone img{
+        width: 100%;
+    }
+
+    #hc-boxtwo{
+        width: 90%;
+        margin: auto;
+    }
+    
+    #hc-two{
+        display: block;
+        width: 100%;
+        padding: 0px;
+    }
+
+    #hc-boxthree{
+        width: 90%;
+        margin: auto;
+    }
+
+    #hc-boxfour{
+        width: 100%;
+        display: block;
+        margin-top: 40px;
+    }
+
+    #hc-boxfour img{
+        width: 100%;
+    }
+
     /* Branches Section */
     .branches div{
         flex-wrap: wrap;
