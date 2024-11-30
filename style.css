@@ -576,9 +576,38 @@ footer li{
         width: 100%;
     }
 
-    /* Gallery */
+    /* Gallery Page */
     .gallery div{
         width: 95%;
+    }
+
+    /* About Us Page */
+    .hero h1{
+        text-align: center;
+    }
+
+    .about-one{
+        display: block;
+    }
+
+    .about-one-image{
+        width: 100%;
+    }
+
+    .about-one-text{
+        width: 100%;
+    }
+
+    .about-two{
+        display: block;
+    }
+
+    .about-two-image{
+        width: 100%;
+    }
+
+    .about-two-text{
+        width: 100%;
     }
 
     /* Branches Section */
