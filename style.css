@@ -495,7 +495,7 @@ footer li{
 
 
 /* Mobile Phone Display*/
-@media screen and (max-width:431px){
+@media screen and (max-width:479px){
     /* Header */
     header{
         position: static;
@@ -679,8 +679,123 @@ footer li{
     }
 }
 
-/* Tablet Device Display */
-@media screen and (min-width:432px) and (max-width:1024px){
+/* Small Tablet Device Display */
+@media screen and (min-width:480px) and (max-width:770px){
+    /* Hero Section - Home Page */
+    .homehero{
+        overflow: visible;
+        height: 1000px;
+    }
+
+    .heroimg{
+        height: 1000px;
+        object-fit: cover;
+    }
+
+    #homehero h4{
+        top: 40%;
+        text-align: center;
+        width: 80%;
+    }
+    
+    #homehero h1{
+        top: 45%;
+        text-align: center;
+        width: 80%;
+    }
+    
+    #homehero h5{
+        top: 55%;
+        text-align: center;
+        width: 80%;
+    }
+
+    /* Main Section - Home Page */
+    #hc-one{
+        width: 100%;
+        padding: 0px;
+    }
+    
+    #hc-two{
+        width: 100%;
+        padding: 0px;
+    }
+
+    /* Gallery */
+    .gallery div{
+        width: 48%;
+    }
+
+    /* About Us Page */
+    .about-one{
+        display: block;
+        width: 100%;
+    }
+
+    .about-one-image{
+        width: 80%;
+        margin: auto;
+    }
+
+    .about-one-text{
+        width: 100%;
+    }
+
+    .about-two{
+        width: 95%;
+    }
+
+    /* Hero banner */
+    .hero h1{
+        top: 23%;
+        left: 50%;
+    }
+
+    .hero .heroli{
+        top: 30%;
+        left: 50%;
+    }
+
+    /* Contact Us Page */
+    .contact-container{
+        flex-direction: column;
+    }
+    
+    .contact-container section{
+        padding: 20px 20px;
+    }
+    
+    .contact-us{
+        width: 100%;
+    }
+
+    .follow-us{
+        width: 100%;
+    }
+
+    /* Footer */
+    .mainfooter{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .f-boxone{
+        width: 100%;
+    }
+
+    .f-box{
+        width: 48%;
+    }
+
+    .fa{
+        padding: 15px;
+        width: 20px;
+        margin: 5px;
+    }
+}
+
+/* Medium Tablet Display */
+@media screen and (min-width:771px) and (max-width:991px){
     /* Hero Section - Home Page */
     .homehero{
         overflow: visible;
@@ -747,7 +862,122 @@ footer li{
 
     /* Hero banner */
     .hero h1{
-        top: 23%;
+        top: 28%;
+        left: 50%;
+    }
+
+    .hero .heroli{
+        top: 33%;
+        left: 50%;
+    }
+
+    /* Contact Us Page */
+    .contact-container{
+        flex-direction: column;
+    }
+    
+    .contact-container section{
+        padding: 20px 20px;
+    }
+    
+    .contact-us{
+        width: 100%;
+    }
+
+    .follow-us{
+        width: 100%;
+    }
+
+    /* Footer */
+    .mainfooter{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .f-boxone{
+        width: 100%;
+    }
+
+    .f-box{
+        width: 48%;
+    }
+
+    .fa{
+        padding: 15px;
+        width: 20px;
+        margin: 5px;
+    }
+}
+
+/* Large Tablet Display */
+@media screen and (min-width:992px) and (max-width:1025px){
+    /* Hero Section - Home Page */
+    .homehero{
+        overflow: visible;
+        height: 1000px;
+    }
+
+    .heroimg{
+        height: 1000px;
+        object-fit: cover;
+    }
+
+    #homehero h4{
+        top: 35%;
+        text-align: center;
+        width: 80%;
+    }
+    
+    #homehero h1{
+        top: 40%;
+        text-align: center;
+        width: 80%;
+    }
+    
+    #homehero h5{
+        top: 50%;
+        text-align: center;
+        width: 80%;
+    }
+
+    /* Main Section - Home Page */
+    #hc-one{
+        width: 100%;
+        padding: 0px;
+    }
+    
+    #hc-two{
+        width: 100%;
+        padding: 0px;
+    }
+
+    /* Gallery */
+    .gallery div{
+        width: 48%;
+    }
+
+    /* About Us Page */
+    .about-one{
+        display: block;
+        width: 100%;
+    }
+
+    .about-one-image{
+        width: 80%;
+        margin: auto;
+    }
+
+    .about-one-text{
+        width: 100%;
+    }
+
+    .about-two{
+        width: 95%;
+    }
+
+    /* Hero banner */
+    .hero h1{
+        top: 25%;
         left: 50%;
     }
 
